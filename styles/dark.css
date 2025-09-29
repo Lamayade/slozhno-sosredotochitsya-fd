@@ -13,3 +13,27 @@
   --page-text-color: #F1B2CE;
   --page-bg-image: url("../images/cover-image-dark.png");
 }
+
+:root.theme-dark .header__corner-dark-label {
+  display: inline-block;
+  top: var(--decoration-border-offset);
+  right: var(--corner-dark-label-h-offset);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 18px;
+  line-height: 25px;
+  position: absolute;
+  color: var(--accent-color);
+}
+
+:root.theme-dark .header__corner-dark-label::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  box-shadow: 0 0 4px 2px var(--accent-color);
+  margin-left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
