@@ -15,6 +15,6 @@
   
 }
 
-:root.theme-light .header__corner-dark-label {
+:root.theme-light .corner-label {
   display: none;
 }

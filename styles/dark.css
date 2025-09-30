@@ -17,35 +17,27 @@
   --page-bg-image: url("../images/cover-image-dark.png");
 }
 
-:root.theme-dark .corner-dark-label {
+:root.theme-dark .corner-label {
   display: inline-block;
   top: var(--decoration-border-offset);
-  right: var(--corner-dark-label-h-offset);
+  right: var(--corner-label-h-offset);
   font-size: 18px;
   line-height: 25px;
   position: absolute;
   color: var(--accent-color);
 }
 
-:root.theme-dark .header .corner-dark-label::after {
+:root.theme-dark .header .corner-label::after {
   content: "";
   width: 9px;
   height: 9px;
   border-radius: 50%;
   background-color: var(--accent-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
-  margin-left: 10px;
+  margin-inline-start: 10px;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
 }
 
-:root.theme-dark .header__title {
-  color: var(--header-title-color);
-  text-shadow: 4px 4px var(--accent-color);
-}
 
-:root.theme-dark .header__abstract {
-  color: var(--header-abstract-color);
-  background-color: var(--accent-color);
-}
