@@ -5,6 +5,6 @@
   --page-bg-image: url("../images/cover-image.png");
   --accent-color: #FF0070;
   --decoration-border-offset: 10px;
-  --corner-dark-label-h-offset: 19px;
-  
+  --decoration-border-lenght: 25px;
+  --corner-dark-label-h-offset: 39px;
 }
