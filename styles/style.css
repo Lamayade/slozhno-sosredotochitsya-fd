@@ -140,11 +140,6 @@
   text-shadow: 4px 4px 0  var(--accent-color);
 }
 
-.subtitle-decor {
-  background-color: var(--accent-color);
-  color: var(--page-header-color);
-}
-
 .header__subtitle {
   font-size: 18px;
   white-space: pre-wrap;
@@ -158,6 +153,15 @@
   .header__subtitle {
     margin-inline-start: 50%;
   }
+}
+
+.accent-block {
+  background-color: var(--accent-color);
+  color: var(--page-header-color);
+}
+
+.accent-text {
+  color: var(--accent-color);
 }
 
 .footer {
