@@ -4,9 +4,10 @@
   --page-bg-color: #000028;
   --page-text-color: #F1B2CE;
   --page-header-color: #000028;
-  --decor-color: #FF0070;
   --page-bg-image: url("../images/cover-image.png");
   --accent-color: #FF0070;
+  --accent-text-color: var(--accent-color);
+  --decor-color: var(--accent-color);
   --decor-color-hover: #FF007066;
   --decoration-border-offset: 10px;
   --decoration-border-length: 25px;
