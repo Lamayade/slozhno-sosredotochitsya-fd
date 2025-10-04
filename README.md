@@ -1,4 +1,4 @@
-[https://github.com/lamayade/slozhno-sosredotochitsya-fd.git]
+https://github.com/lamayade/slozhno-sosredotochitsya-fd.git
 
 # No focus
 ## Сайт о состоянии сосредоточенности
