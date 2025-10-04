@@ -10,10 +10,10 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #FF8DCB;
+  --page-header-color: #353430;
   --accent-text-color: var(--page-header-color);
   --page-bg-color: #FFF1F7;
   --page-text-color: var(--page-header-color);
-  --page-header-color: #353430;
   --main-text-color: #FFC2E6;
   --decor-color: var(--page-header-color);
   --decor-color-hover: #35343066;
@@ -24,10 +24,10 @@
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #FF8DCB;
+    --page-header-color: #353430;
     --accent-text-color: var(--page-header-color);
     --page-bg-color: #FFF1F7;
     --page-text-color: var(--page-header-color);
-    --page-header-color: #353430;
     --main-text-color: #FFC2E6;
     --decor-color: var(--page-header-color);
     --decor-color-hover: #35343066;
