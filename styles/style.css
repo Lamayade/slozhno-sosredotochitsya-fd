@@ -67,7 +67,6 @@
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  font-family: 'IBM Plex Mono', monospace;
 }
 
 .header__theme-menu-list {
