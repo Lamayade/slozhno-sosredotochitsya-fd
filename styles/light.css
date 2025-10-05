@@ -33,6 +33,10 @@
     --decor-color-hover: #35343066;
     --page-bg-image: url("../images/cover-image-light.png");
   }
+
+  .corner-label {
+    display: none;
+  }
 }
 
 :root.theme-light .corner-label {
