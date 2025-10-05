@@ -25,4 +25,4 @@ cd slozhno-sosredotochitsya-fd
 Открыть файл `index.html` в браузере.
 
 ## Скриншоты
-![Заглавная страница](screenshots/main.png))
+![Заглавная страница](screenshots/main.png)
