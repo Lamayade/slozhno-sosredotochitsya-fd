@@ -217,7 +217,7 @@
 }
 
 .footer__title {
-  margin-inline-start: -10px;
+  padding-inline-start: 0;
   text-shadow: 2px 2px 0  var(--accent-color);
 }
 
@@ -309,10 +309,6 @@
   .article__text {
     margin-block-end: 10px;
   }
-
-  .footer__title {
-    margin-inline-start: 0;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -321,7 +317,6 @@
     grid-auto-columns: min-content;
     justify-content: center;
     margin-block-start: 17px;
-    margin-inline-end: 0;
     gap: 10px;
   }
 
