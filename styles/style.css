@@ -317,6 +317,7 @@
     grid-auto-columns: min-content;
     justify-content: center;
     margin-block-start: 17px;
+    margin-inline-start: 20px;
     gap: 10px;
   }
 

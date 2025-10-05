@@ -16,6 +16,7 @@
   --page-text-color: #F1B2CE;
   --page-header-color: var(--page-bg-color);
   --decor-color: var(--accent-color);
+  --decor-color-hover: #FF007066;
   --page-bg-image: url("../images/cover-image-dark.png");
 }
 
